@@ -36,7 +36,7 @@ if (( ${#SIMPLEX_CREATE_PASSWORD} < 16 )); then
   exit 1
 fi
 
-http_port="${PORT:-8080}"
+http_port="${SIMPLEX_HTTP_PORT:-8080}"
 application_port="${RAILWAY_TCP_APPLICATION_PORT:-5223}"
 external_port="$RAILWAY_TCP_PROXY_PORT"
 

@@ -1,6 +1,6 @@
 # SimpleX SMP relay on Railway
 
-<!-- The verified Railway deploy button is added after publication. -->
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simplex-smp-server)
 
 A persistent [SimpleX Messaging Protocol](https://simplex.chat/docs/server.html) relay using the official `simplexchat/smp-server:v6.5.0` image. The adapter connects Railway's fixed internal TCP application port to the externally assigned TCP proxy port while preserving the relay identity and queue store on one volume.
 

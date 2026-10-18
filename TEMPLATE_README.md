@@ -2,7 +2,7 @@
 
 ## About Hosting a SimpleX SMP Relay
 
-A SimpleX SMP relay stores and forwards encrypted message queues without user identifiers. This template deploys the official SimpleXMQ SMP server `v6.5.2`, a Railway TCP-port adapter, and a secret-safe status page.
+A SimpleX SMP relay stores and forwards encrypted message queues without user identifiers. This template deploys the official SimpleXMQ SMP server `v7.0.1`, a Railway TCP-port adapter, and a secret-safe status page.
 
 ## Common Use Cases
 

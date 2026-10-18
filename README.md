@@ -2,7 +2,7 @@
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/simplex-smp-server)
 
-A persistent [SimpleX Messaging Protocol](https://simplex.chat/docs/server.html) relay using the official `simplexchat/smp-server:v6.5.2` image. The adapter connects Railway's fixed internal TCP application port to the externally assigned TCP proxy port while preserving the relay identity and queue store on one volume.
+A persistent [SimpleX Messaging Protocol](https://simplex.chat/docs/server.html) relay using the official `simplexchat/smp-server:v7.0.1` image. The adapter connects Railway's fixed internal TCP application port to the externally assigned TCP proxy port while preserving the relay identity and queue store on one volume.
 
 ## Architecture
 
@@ -39,7 +39,7 @@ Update the SimpleXMQ image tag and immutable digest together, rebuild, then veri
 
 - Source: https://github.com/simplex-chat/simplexmq
 - Server guide: https://simplex.chat/docs/server.html
-- Release: https://github.com/simplex-chat/simplexmq/releases/tag/v6.5.2
+- Release: https://github.com/simplex-chat/simplexmq/releases/tag/v7.0.1
 - License: [GNU AGPL v3](LICENSE)
 
 This adapter source remains public to satisfy the network-use source availability expected by the upstream license.

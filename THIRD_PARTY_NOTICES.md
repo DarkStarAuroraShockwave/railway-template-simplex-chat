@@ -1,6 +1,6 @@
 # Third-party notices
 
-This repository adapts SimpleXMQ SMP server `v6.5.2` for Railway.
+This repository adapts SimpleXMQ SMP server `v7.0.1` for Railway.
 
 - SimpleXMQ source: https://github.com/simplex-chat/simplexmq
 - Copyright: SimpleX Chat / SimpleXMQ authors and contributors

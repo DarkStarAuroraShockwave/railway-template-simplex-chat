@@ -1,4 +1,4 @@
-FROM simplexchat/smp-server:v6.5.2@sha256:2d485178f034c6cfc21d80207870f0bc9802bf10f028233860bc7b9208a827b9
+FROM simplexchat/smp-server:v7.0.1@sha256:7d825822839a9d5ee9e9a99563d77a319816c7a8e0b4b7bf4dcebe448897af54
 
 USER root
 RUN apt-get update \
